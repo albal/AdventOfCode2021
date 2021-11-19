@@ -21,6 +21,5 @@ func main() {
 			log.Fatal(err)
 		}
 		file.Close()
-
 	}
 }
