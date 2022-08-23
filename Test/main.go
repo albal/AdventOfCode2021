@@ -34,7 +34,7 @@ func main() {
 	var freqs []int64
 	var freq int64 = 0
 	var iterations int64 = 0
-	lines, err := readLines("input.txt")
+	lines, err := readLines("Test\\input.txt")
 	if err != nil {
 		log.Fatalf("readLines: %s", err)
 	}

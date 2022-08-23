@@ -20,7 +20,10 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
-		file.Close()
+		err = file.Close()
+		if err != nil {
+			return
+		}
 
 	}
 }
